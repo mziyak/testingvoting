@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: url('/images/voteimage.jpg') no-repeat center center fixed; /* Background image */
+    background: url('./images/voteimage.jpg') no-repeat center center fixed; /* Background image */
     background-size: cover; /* Ensure the background covers the entire viewport */
     display: flex;
     justify-content: center;
