@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('/images/voteimage.jpg') no-repeat center center fixed; /* Background image */
+    background-size: cover; /* Ensure the background covers the entire viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+    backdrop-filter: blur(10px); /* Blur effect for the glass appearance */
+    -webkit-backdrop-filter: blur(10px); /* For Safari support */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Slight border to enhance glass effect */
+    max-width: 400px;
+    width: 100%;
+    color: #fff;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: black; /* White text color for visibility */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, select, button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2); /* Slightly transparent background for inputs */
+    color: black; /* White text color for inputs */
+}
+
+input::placeholder, select, button {
+    color: black; /* Placeholder text color for better readability */
+}
+
+button {
+    background: rgba(0, 123, 255, 0.7); /* Semi-transparent blue background for buttons */
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: grey; /* Slightly darker blue on hover */
+}
+
+a {
+    color: #fff; /* White text for links */
+    text-decoration: underline;
+}
